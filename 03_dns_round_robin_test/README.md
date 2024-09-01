@@ -6,8 +6,8 @@
 1. Create a new virtual network called ***dude** (defaul bridge driver)
 2. Create two containers from ***elasticsearch:2*** image
 3. Research and use --network-alias search when creating them to give them an additional DNS name to respond to
-4. Run ***alpine nslookup search*** with --net to see the two containers list from the same DNS name
-5. Run ***centos curl -s search:9200** with --net multiple times until you see both "name" fields show
+4. Run ***alpine nslookup search*** with ***--net*** to see the two containers list from the same DNS name
+5. Run ***centos curl -s search:9200*** with ***--net*** multiple times until you see both "name" fields show
 
 
 ## Answer
