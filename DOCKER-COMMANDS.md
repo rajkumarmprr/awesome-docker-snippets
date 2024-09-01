@@ -24,7 +24,7 @@ Docker image is a application that we want to run, It contains the source codes,
 ```
 
 
-| #Command                                                                    | #Usage                                                                           |
+| Command                                                                     | Usage                                                                            |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | docker version                                                              | To check the docker client and docker engine version                             |
 | docker info                                                                 | To check the docker configs information                                          |
