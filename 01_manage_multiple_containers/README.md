@@ -20,7 +20,7 @@ docker container run --name apache --publish 8080:80 --detach httpd
 docker container run --name mysql --publish 3306:3306 --detach --env MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
 docker container logs -f mysql
 docker container ls -a
-docker stop nginx apache mysql
-docker rm nginx apache mysql
+docker container stop nginx apache mysql
+docker container rm nginx apache mysql
 docker container ls -a
 ```
